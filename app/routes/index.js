@@ -9,9 +9,9 @@ var blogPosts = [{
 }, {
   id: 2,
   author: "Ned",
-  title: "Get out there and take advantage of a nice day",
+  title: "Get Out There",
   image: "http://www.outyourbackdoor.com/images/articles/101829_DSCF0477_exposure[1].JPG",
-  detail: "There are plenty of ways to enjoy a beautiful summer day, but riding a bike is one of the most active ways to spend your leisure time. According to Dr. Micky Showasky, a relaxing bike ride (<10 mph) burns more calories than an easy walk (2 mph)—281 calories versus 176 calories per hour. Challenge yourself by powering your way up hills and pushing your speed over 10 mph, but even keeping to a leisurely pace is a great way to supplement an active lifestyle."
+  detail: "There are plenty of ways to enjoy a beautiful day, but riding a bike is one of the most active ways to spend your leisure time. According to Dr. Micky Showasky, a relaxing bike ride (<10 mph) burns more calories than an easy walk (2 mph)—281 calories versus 176 calories per hour. Challenge yourself by powering your way up hills and pushing your speed over 10 mph, but even keeping to a leisurely pace is a great way to supplement an active lifestyle."
 }, {
   id: 3,
   author: "Luca",
@@ -21,7 +21,7 @@ var blogPosts = [{
 }, {
   id: 4,
   author: "Nadia",
-  title: "When you’re everything but a child",
+  title: "When You’re Everything but a Child",
   image: "https://1reasonaday.files.wordpress.com/2015/03/zoobombing-in-portland.png?w=840",
   detail: "The fact that ‘zoobombing’ exists (and that is called like that) is a proof that this world is crazy. The US city of Portland in Oregon is home to a unique weekly cycling event known as zoobombing. It attracts an eclectic crowd of cycling enthusiasts who like nothing more than hurtling down a steep hill at high speed, on souped up children's bikes, late at night. Some of the bikes are left chained up in a pile in the city centre, which has itself become a local landmark. The ride, often repeated several times in an evening, starts with a journey on Portland's light rail system then a hike to the top of a hill, near the city's zoo."
 }];
