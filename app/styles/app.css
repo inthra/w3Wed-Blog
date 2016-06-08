@@ -11,6 +11,10 @@ nav {
   text-align: center;
 }
 
+.container footer {
+  margin-bottom: 20px;
+}
+
 .blogAuthor {
   font-style: italic;
 }
@@ -23,6 +27,6 @@ nav {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 700px;
+  width: 680px;
   height: auto;
 }
