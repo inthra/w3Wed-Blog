@@ -1,33 +1,7 @@
 import Ember from 'ember';
 
-var blogPosts = [{
-  id: 1,
-  author: "Fernanda",
-  title: "The Why and How of Cycling",
-  image: "http://sarahwilson.com/wp-content/uploads/2011/07/Picture-3.png",
-  detail: "'When riding in traffic, it’s important to pedal like crazy!'. We’ve all heard this said, but what does it actually mean, and why should we do it? To ride fast is to cycle as though every other road user is attempting to decouple you from your bicycle. In short: ride with suspicion, act like everyone wants to knock you off."
-}, {
-  id: 2,
-  author: "Ned",
-  title: "Get Out There",
-  image: "http://www.outyourbackdoor.com/images/articles/101829_DSCF0477_exposure[1].JPG",
-  detail: "There are plenty of ways to enjoy a beautiful day, but riding a bike is one of the most active ways to spend your leisure time. According to Dr. Micky Showasky, a relaxing bike ride (<10 mph) burns more calories than an easy walk (2 mph)—281 calories versus 176 calories per hour. Challenge yourself by powering your way up hills and pushing your speed over 10 mph, but even keeping to a leisurely pace is a great way to supplement an active lifestyle."
-}, {
-  id: 3,
-  author: "Luca",
-  title: "Travel the World by Bicycle",
-  image: "https://backroads-web.s3.amazonaws.com/images/search/thumbnail/dolomites-bike-tour.jpg",
-  detail: "In this era of high gas prices, fuel surcharges and talk of the next depression just around the corner, the bicycle remains one of the best kept secrets both in order to travel cheaply and to get to know a culture. Outside of a group of diehard enthusiasts, the idea going on vacation by bicycle hardly occurs to most people. If it does, thoughts of “too hard” and “just for the young” keep many from exploring the idea further. The truth is that bike touring only has to be as strenuous as you want to make it. Don't fancy camping every night and crossing continents at a racing pace? Go instead for a laid-back ride along Europe's canal and riverside paths—no traffic and flat—or a jaunt through New Zealand's vineyards, stopping at a B&B each night. There are so many ways to tour by bicycle. You can pick the one which appeals most to your budget, experience, and sense of adventure. No matter how you do it, your credit card bill is almost guaranteed to come out healthier compared with equivalent trips using motorized transport. And do not forget the bonus of equally slimming effects on your waistline!"
-}, {
-  id: 4,
-  author: "Nadia",
-  title: "When You’re Everything but a Child",
-  image: "https://1reasonaday.files.wordpress.com/2015/03/zoobombing-in-portland.png?w=840",
-  detail: "The fact that ‘zoobombing’ exists (and that is called like that) is a proof that this world is crazy. The US city of Portland in Oregon is home to a unique weekly cycling event known as zoobombing. It attracts an eclectic crowd of cycling enthusiasts who like nothing more than hurtling down a steep hill at high speed, on souped up children's bikes, late at night. Some of the bikes are left chained up in a pile in the city centre, which has itself become a local landmark. The ride, often repeated several times in an evening, starts with a journey on Portland's light rail system then a hike to the top of a hill, near the city's zoo."
-}];
-
 export default Ember.Route.extend({
   model() {
-    return blogPosts;
+    return this.store.findAll('post');
   },
 });
