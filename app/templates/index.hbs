@@ -3,14 +3,6 @@
 
 <ul>
   {{#each model as |post|}}
-    <div class="row">
-      <h3 class="blogTitle">{{post.title}}</h3>
-      <p class="centerText">By: <span class="blogAuthor"> {{post.author}}</span></p>
-      <img src={{post.image}} alt="photo of cycling" class="blogImage"><br>
-      <div class="col-sm-8 col-sm-offset-2">
-        <p class="blogDetail">{{post.detail}}</p>
-      </div>
-    </div>
-    <hr>
+    {{post-tile post=post destroyPost="destroyPost"}}
   {{/each}}
 </ul>

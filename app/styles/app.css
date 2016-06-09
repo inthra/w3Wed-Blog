@@ -30,3 +30,9 @@ nav {
   width: 680px;
   height: auto;
 }
+
+.deletePost:hover {
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+}
