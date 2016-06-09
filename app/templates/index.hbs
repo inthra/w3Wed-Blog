@@ -1,6 +1,8 @@
 <hr>
 <h2>Latest blog posts below</h2>
 
+{{new-post save="save"}}
+
 <ul>
   {{#each model as |post|}}
     {{post-tile post=post destroyPost="destroyPost"}}

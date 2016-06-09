@@ -36,3 +36,13 @@ nav {
   font-weight: bold;
   font-size: 20px;
 }
+
+.addPost:hover {
+  color: #66ff66;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#detail {
+  width: 400px;
+}
