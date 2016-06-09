@@ -31,6 +31,10 @@ nav {
   height: auto;
 }
 
+.deletePost {
+  float: right;
+}
+
 .deletePost:hover {
   color: red;
   font-weight: bold;
@@ -38,11 +42,17 @@ nav {
 }
 
 .addPost:hover {
-  color: #66ff66;
+  color: #00b359;
   font-weight: bold;
   font-size: 20px;
 }
 
 #detail {
-  width: 400px;
+  width: 600px;
+}
+
+.updatePost:hover {
+  color: #3399ff;
+  font-weight: bold;
+  font-size: 20px;
 }

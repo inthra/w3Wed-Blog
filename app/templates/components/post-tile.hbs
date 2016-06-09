@@ -6,5 +6,13 @@
     <p class="blogDetail">{{post.detail}}</p>
   </div>
 </div>
-<p class="deletePost" {{action 'delete' post}}>Delete Post</p>
+
+<div class="row">
+  <div class="col-sm-6">
+    {{update-post post=post update="update"}}
+  </div>
+  <div class="col-sm-6">
+    <p class="deletePost" {{action 'delete' post}}>Delete Post <span></span></p>
+  </div>
+</div>
 <hr>
